@@ -1,0 +1,26 @@
+<html>
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>我的第一个网页</title>
+    <script>
+
+        var title = "【收到6条新消息】" + document.title
+
+            setInterval(function () {
+
+            title = title.substring(1, title.length) + title.substring(0, 1)
+
+            document.title = title}, 500)
+        
+    </script>
+
+</head>
+
+<body>
+<h1>我的第一个网页</h1>
+
+</body>
+
+</html>
